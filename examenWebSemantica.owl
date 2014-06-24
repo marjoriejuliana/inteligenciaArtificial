@@ -1,0 +1,1627 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2014/5/examenWebSemantica"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2014/5/examenWebSemantica">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Carrera_de_Electromecánica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrera_de_Electrónica_y_Telecomunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrera_de_Geología_y_Ordenamiento_Territorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrera_de_Ingeniería_en_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclo_I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclo_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docentes_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#III_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#III_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#II_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#II_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IX_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IX_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malla_Nueva_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_Modulo_IX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_Modulo_VII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloIV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloVI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloVIII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_MóduloX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materias_Módulo_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_IV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_IX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_V"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_VI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_VII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_VIII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modulo_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_IV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_IX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_V"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_VI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_VII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_VIII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralelos_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VIII_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VIII_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VII_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VII_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VI_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VI_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#X_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#X_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_Agropecuaria_y_Recursos_Naturales_Renovables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_de_la_Salud_Humana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclos/Modulos_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_Jurídica,Area_Social_y_Administrativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_de_la_Educación,Area_del_Arte_y_la_Comunicación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cursa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dicta_clase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#imparte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recibe_clase_de"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administracion_de_Centros_de_Computo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administración_de_Empresas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Algebra_Lineal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analisis_Numerico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Análisis_y_Diseño_de_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arquitectura_de_Computadores"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auditoría_Informática"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Base_de_Datos_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calculo_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calculo_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calculo_Integral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compiladores"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contabilidad_General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contabilidad_de_Costos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Control_Automatizado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Derecho_Informatico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diseño_Digital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diseño_de_Sistemas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diseño_y_Gestión_de_Base_de_Datos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dra._Mercy_Feijoó"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ecologia_y_Medio_Ambiente_Ecologico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Economía"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ecuaciones_Diferenciales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electrónica_Básica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electrónica_Digital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estadistica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estadistica_Inferencial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estructura_de_Datos_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estructura_de_Datos_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estructura_de_Datos_orientada_a_Objetos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Expresión_Oral_y_Escrita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fisica_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fisica_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fundamentos_Informaticos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gestion_de_Redes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Alex_Padilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Francisco_Alvarez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Fredy_Ajila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Henry_Cueva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Henry_Paz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Hernán_Torres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Jorge_Tocto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Luis_Chamba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Marco_Ocampo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Mario_Cueva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Pablo_Ordoñez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._René_Guamán"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ing._Roberto_Jácome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingenieria_de_Software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingeniería_de_Software_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Investigación_de_Operaciones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laboratorio_de_Fisica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laboratorio_de_Fisica_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lenguaje_Ensamblador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lenguajes_Formales_y_Teoria_de_Automatas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matemáticas_Discretas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Modelamiento_Matemático"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Probabilidad_e_Inferencia_Estadistica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proceso_Investigativo_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proceso_Investigativo_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proceso_Investigativo_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proceso_Investigativo_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programacion_Básica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programacion_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programación_Avanzada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programación_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proyectos_Informaticos_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proyectos_Informaticos_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simulación"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sistemas_Expertos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sistemas_Operativos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sistemas_de_Informacion_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sistemas_de_Informacion_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teoria_de_Telecomunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teoria_de_la_Programacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ética_Profesional"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Carrera_de_Electromecánica"/>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrera_de_Electrónica_y_Telecomunicaciones"/>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrera_de_Geología_y_Ordenamiento_Territorial"/>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrera_de_Ingeniería_en_Sistemas"/>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclo_I"/>
+        <Class IRI="#Malla_Nueva_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclo_II"/>
+        <Class IRI="#Malla_Nueva_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <Class IRI="#Carrera_de_Ingeniería_en_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_Modulo_IX"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_Modulo_VII"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloII"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloIV"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloV"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloVI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloVIII"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloX"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_Módulo_III"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#III_A"/>
+        <Class IRI="#Paralelos_III"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#III_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_III"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#III_B"/>
+        <Class IRI="#Paralelos_III"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#III_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_III"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_A"/>
+        <Class IRI="#Paralelos_II"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_B"/>
+        <Class IRI="#Paralelos_II"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_B"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#II_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_A"/>
+        <Class IRI="#Paralelos_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_IV"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_B"/>
+        <Class IRI="#Paralelos_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_IV"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IX_A"/>
+        <Class IRI="#Paralelos_IX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IX_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_IX"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IX_B"/>
+        <Class IRI="#Paralelos_IX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IX_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_IX"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_A"/>
+        <Class IRI="#Paralelos_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_B"/>
+        <Class IRI="#Paralelos_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malla_Nueva_Sistemas"/>
+        <Class IRI="#Ciclos/Modulos_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+        <Class IRI="#Ciclos/Modulos_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <Class IRI="#Modulo_IX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <Class IRI="#Modulo_VII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloI"/>
+        <Class IRI="#Ciclo_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloII"/>
+        <Class IRI="#Ciclo_II"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloIV"/>
+        <Class IRI="#Modulo_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloV"/>
+        <Class IRI="#Modulo_V"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloVI"/>
+        <Class IRI="#Modulo_VI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <Class IRI="#Modulo_VIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_MóduloX"/>
+        <Class IRI="#Modulo_X"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materias_Módulo_III"/>
+        <Class IRI="#Modulo_III"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_III"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_IV"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_IX"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_V"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_VI"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_VII"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_VIII"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modulo_X"/>
+        <Class IRI="#Malla_Vieja_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_I"/>
+        <Class IRI="#Ciclo_I"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_II"/>
+        <Class IRI="#Ciclo_II"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_III"/>
+        <Class IRI="#Modulo_III"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_IV"/>
+        <Class IRI="#Modulo_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_IX"/>
+        <Class IRI="#Modulo_IX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_V"/>
+        <Class IRI="#Modulo_V"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_VI"/>
+        <Class IRI="#Modulo_VI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_VII"/>
+        <Class IRI="#Modulo_VII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_VIII"/>
+        <Class IRI="#Modulo_VIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralelos_X"/>
+        <Class IRI="#Modulo_X"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIII_A"/>
+        <Class IRI="#Paralelos_VIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIII_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VIII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIII_B"/>
+        <Class IRI="#Paralelos_VIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIII_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VIII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VII_A"/>
+        <Class IRI="#Paralelos_VII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VII_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VII_B"/>
+        <Class IRI="#Paralelos_VII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VII_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VII"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VI_A"/>
+        <Class IRI="#Paralelos_VI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VI_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VI"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VI_B"/>
+        <Class IRI="#Paralelos_VI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VI_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_VI"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_A"/>
+        <Class IRI="#Paralelos_V"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_V"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_B"/>
+        <Class IRI="#Paralelos_V"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_V"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X_A"/>
+        <Class IRI="#Paralelos_X"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X_A"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_X"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X_B"/>
+        <Class IRI="#Paralelos_X"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X_B"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Modulo_X"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Área_Agropecuaria_y_Recursos_Naturales_Renovables"/>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Área_de_la_Salud_Humana"/>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclos/Modulos_Sistemas"/>
+        <Class IRI="#Carrera_de_Ingeniería_en_Sistemas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Área_Jurídica,Area_Social_y_Administrativa"/>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Área_de_la_Educación,Area_del_Arte_y_la_Comunicación"/>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Área_de_la_Energía,Area_de_Industrias_y_los_Recursos_Naturales_no_Renovables"/>
+        <Class IRI="#Universidad_Nacional_de_Loja"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Administracion_de_Centros_de_Computo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Administración_de_Empresas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Algebra_Lineal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Analisis_Numerico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Análisis_y_Diseño_de_Sistemas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Arquitectura_de_Computadores"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Auditoría_Informática"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Base_de_Datos_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Calculo_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Calculo_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Calculo_Integral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Compiladores"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Contabilidad_General"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Contabilidad_de_Costos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Control_Automatizado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Derecho_Informatico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Diseño_Digital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Diseño_de_Sistemas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Diseño_y_Gestión_de_Base_de_Datos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Dra._Mercy_Feijoó"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Ecologia_y_Medio_Ambiente_Ecologico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Economía"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Ecuaciones_Diferenciales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Electrónica_Básica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Electrónica_Digital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Estadistica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Estadistica_Inferencial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Estructura_de_Datos_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Estructura_de_Datos_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Estructura_de_Datos_orientada_a_Objetos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Expresión_Oral_y_Escrita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Fisica_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Fisica_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Fisica_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Fundamentos_Informaticos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#X_B"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloX"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Gestion_de_Redes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Alex_Padilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Francisco_Alvarez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#dicta_clase"/>
+            <Class IRI="#X_A"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#dicta_clase"/>
+            <Class IRI="#X_B"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Fredy_Ajila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Henry_Cueva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#dicta_clase"/>
+            <Class IRI="#X_B"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Ing._Henry_Cueva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Henry_Paz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#dicta_clase"/>
+            <Class IRI="#X_B"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Ing._Henry_Paz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Hernán_Torres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Jorge_Tocto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Luis_Chamba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#dicta_clase"/>
+            <Class IRI="#X_A"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Ing._Luis_Chamba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Marco_Ocampo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Mario_Cueva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Pablo_Ordoñez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._René_Guamán"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes_Sistemas"/>
+        <NamedIndividual IRI="#Ing._Roberto_Jácome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Ingenieria_de_Software"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Ingeniería_de_Software_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Investigación_de_Operaciones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Laboratorio_de_Fisica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Laboratorio_de_Fisica_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVI"/>
+        <NamedIndividual IRI="#Lenguaje_Ensamblador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Lenguajes_Formales_y_Teoria_de_Automatas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#X_B"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#cursa"/>
+            <Class IRI="#Materias_MóduloX"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Matemáticas_Discretas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Modelamiento_Matemático"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Probabilidad_e_Inferencia_Estadistica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Proceso_Investigativo_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Proceso_Investigativo_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Proceso_Investigativo_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Proceso_Investigativo_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloIV"/>
+        <NamedIndividual IRI="#Programacion_Básica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloII"/>
+        <NamedIndividual IRI="#Programacion_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloV"/>
+        <NamedIndividual IRI="#Programación_Avanzada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Módulo_III"/>
+        <NamedIndividual IRI="#Programación_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Proyectos_Informaticos_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloVIII"/>
+        <NamedIndividual IRI="#Proyectos_Informaticos_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Simulación"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Sistemas_Expertos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Sistemas_Operativos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Sistemas_de_Informacion_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_IX"/>
+        <NamedIndividual IRI="#Sistemas_de_Informacion_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_Modulo_VII"/>
+        <NamedIndividual IRI="#Teoria_de_Telecomunicaciones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloI"/>
+        <NamedIndividual IRI="#Teoria_de_la_Programacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materias_MóduloX"/>
+        <NamedIndividual IRI="#Ética_Profesional"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Dra._Mercy_Feijoó"/>
+        <NamedIndividual IRI="#Administración_de_Empresas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Dra._Mercy_Feijoó"/>
+        <NamedIndividual IRI="#Economía"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Simulación"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Sistemas_Expertos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Ética_Profesional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Gabriela_Rodriguez"/>
+        <NamedIndividual IRI="#Control_Automatizado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Alex_Padilla"/>
+        <NamedIndividual IRI="#Teoria_de_la_Programacion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Alex_Padilla"/>
+        <NamedIndividual IRI="#Fundamentos_Informaticos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Francisco_Alvarez"/>
+        <NamedIndividual IRI="#Matemáticas_Discretas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Francisco_Alvarez"/>
+        <NamedIndividual IRI="#Ingeniería_de_Software_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Francisco_Alvarez"/>
+        <NamedIndividual IRI="#Auditoría_Informática"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+        <NamedIndividual IRI="#Control_Automatizado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Franco_Salcedo"/>
+        <NamedIndividual IRI="#Analisis_Numerico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Fredy_Ajila"/>
+        <NamedIndividual IRI="#Estructura_de_Datos_II"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Fredy_Ajila"/>
+        <NamedIndividual IRI="#Arquitectura_de_Computadores"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Henry_Cueva"/>
+        <NamedIndividual IRI="#Diseño_Digital"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Henry_Cueva"/>
+        <NamedIndividual IRI="#Electrónica_Digital"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Henry_Paz"/>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Henry_Paz"/>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Hernán_Torres"/>
+        <NamedIndividual IRI="#Administracion_de_Centros_de_Computo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Jorge_Tocto"/>
+        <NamedIndividual IRI="#Calculo_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Jorge_Tocto"/>
+        <NamedIndividual IRI="#Algebra_Lineal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Luis_Chamba"/>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Luis_Chamba"/>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Marco_Ocampo"/>
+        <NamedIndividual IRI="#Proyectos_Informaticos_II"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Marco_Ocampo"/>
+        <NamedIndividual IRI="#Investigación_de_Operaciones"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Mario_Cueva"/>
+        <NamedIndividual IRI="#Gestion_de_Redes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Mario_Cueva"/>
+        <NamedIndividual IRI="#Administracion_de_Centros_de_Computo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Pablo_Ordoñez"/>
+        <NamedIndividual IRI="#Análisis_y_Diseño_de_Sistemas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Pablo_Ordoñez"/>
+        <NamedIndividual IRI="#Ética_Profesional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._René_Guamán"/>
+        <NamedIndividual IRI="#Programación_II"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._René_Guamán"/>
+        <NamedIndividual IRI="#Lenguaje_Ensamblador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Roberto_Jácome"/>
+        <NamedIndividual IRI="#Simulación"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Roberto_Jácome"/>
+        <NamedIndividual IRI="#Sistemas_Expertos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#Ing._Roberto_Jácome"/>
+        <NamedIndividual IRI="#Base_de_Datos_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Anteproyectos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Simulación"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Ética_Profesional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Sistemas_Expertos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Control_Automatizado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#cursa"/>
+        <NamedIndividual IRI="#Marjorie_Chinchay"/>
+        <NamedIndividual IRI="#Inteligencia_Artificial"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cursa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#recibe_clase_de"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#imparte"/>
+        <Class IRI="#Docentes_Sistemas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cursa"/>
+        <Class IRI="#Materias_MóduloI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cursa"/>
+        <Class IRI="#Materias_MóduloII"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_Modulo_IX"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloI"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloII"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloIV"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloV"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloVI"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloVIII"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_MóduloX"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#imparte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#imparte"/>
+            <Class IRI="#Materias_Módulo_III"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
